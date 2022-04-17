@@ -1,0 +1,63 @@
+.Order-detail{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    z-index: 100;
+}
+.Order-detail-top{
+    padding: 0 20px;
+
+    width: 100%;
+}
+ .Order-detail-view{
+    width: 100%;  
+    display: inline-flex;
+}
+.Order-detail-view-left{
+    width: 40%;
+
+}
+.but{
+    border: none;
+    background: none;
+    margin: 0px 0px 5px 10px;
+    box-shadow: none;
+}
+.a{
+    display: none;
+}
+.Update-form{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background: rgb(184, 164, 164);
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.butMUI-update{
+    width: 150px;
+    margin-bottom: 5px;
+}
+/* .css-1u7jyyi-MuiPaper-root-MuiCard-root{
+    width: 70%;
+    float: left;
+} */
+.detail-view{
+    float: left;
+    width: 29%;
+    margin-left: 10px;
+    background: #ffffff;
+    height: 100%;
+    border-radius: 5px;
+    box-Shadow: '0px 0px 4px 1px #ccc';
+    padding: 20px;
+}
+.detail{
+    height: 300px;
+}
+.ck-editor__editable_inline{
+    height: 100px;
+
+}
+

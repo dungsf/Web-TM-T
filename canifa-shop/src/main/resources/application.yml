@@ -1,0 +1,42 @@
+server:
+  port: 8080
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: loqcoqtu@gmail.com
+    password: nyvlhpkbqyaoejjt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/db_canifa_shop?createDatabaseIfNotExist=true
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+## Multipart (MultipartProperties) 
+# Enable multipart uploads
+  servlet: 
+    multipart:
+      enabled: true
+# Threshold after which files are written to disk
+      file-size-threshold: 2KB
+# Max file size
+      max-file-size: 200MB
+# Max Request size
+      max-request-size: 215MB
+
+jwt.secret: '9AEW57AzDzHiamTadS3Nzal28MP1yo9bkwlqBmeUj27POsBleTfvhb7YzMxA2q+0/xJEsx7RpYRorLUDEUugrQ=='
+jwt.access.token.validity: 36000000
+jwt.refresh.token.validity: 864000000
+base.api: '/api/v1'
+domain.origins: 'http://localhost:3000'
+page.size: 4 
